@@ -1,0 +1,52 @@
+code,pre,.coscode{
+	font-size: 12px; 
+	background-color: #E7E5DC;
+	width: 99%;
+	overflow: auto;
+	margin: 0 0 12px 0 !important;
+	padding-top: 1px; /* adds a little border on top when controls are hidden */
+	
+}
+/* clear styles */
+.coscode ol,
+.coscode ol li,
+.coscode ol li span 
+{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.coscode a,
+.coscode a:hover
+{
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+.coscode ol
+{
+	list-style: decimal; /* for ie */
+	background-color: #fff;
+	margin: 0px 0px 1px 40px !important; /* 1px bottom margin seems to fix occasional Firefox scrolling */
+	padding: 0px;
+	color: #5C5C5C;
+}
+
+
+.coscode ol li,
+.coscode .columns div
+{
+	list-style: decimal-leading-zero; /* better look for others, override cascade from OL */
+	list-style-position: outside !important;
+	border-left: 3px solid #6CE26C;
+	background-color: #F8F8F8;
+	color: #5C5C5C;
+	padding: 0 3px 0 10px !important;
+	margin: 0 !important;
+	line-height: 14px;
+}
+
+.coscode ol li{border-right:1px solid #E7E5DC;}
+.codeopt{}
+.codeopt a,.codeopt a:link,.codeopt a:visited{color:#000;background: #E7E5DC;}
